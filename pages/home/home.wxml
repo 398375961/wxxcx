@@ -1,2 +1,14 @@
 <!--pages/home/home.wxml-->
 <text>holl word</text>
+<!-- 获取用户信息（方法二） -->
+<view>
+  <button size="mini" 
+        open-type="getUserInfo"
+        bindgetuserinfo="handleGetUserInfo">
+        获取授权
+  </button>
+</view>
+
+<!-- 展示用户信息（方法三） -->
+<view><open-data type='userAvatarUrl'></open-data></view>
+<view><open-data type="userNickName"></open-data></view>
