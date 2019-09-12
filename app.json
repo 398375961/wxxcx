@@ -2,5 +2,31 @@
   "pages": [
     "pages/home/home",
     "pages/about/about"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小叶子",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "public/tabbar/hongxin.png",
+        "selectedIconPath": "public/tabbar/dahx.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "分类",
+        "iconPath": "public/tabbar/heixin.png",
+        "selectedIconPath": "public/tabbar/dahx.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap2.json"
 }
